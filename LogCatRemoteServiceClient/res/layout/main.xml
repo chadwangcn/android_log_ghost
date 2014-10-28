@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button
+	android:id="@+id/bindButton"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="绑定服务"
+    />  
+    <Button
+	android:id="@+id/unbindButton"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="解除绑定"
+    />
+   
+    <Button
+	android:id="@+id/button_start"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="启动服务"
+    />
+    
+    <Button
+	android:id="@+id/button_stop"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="停止服务"
+    />
+    
+    <Button
+	android:id="@+id/button_reset"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="重启服务"
+    />
+    
+    <Button
+	android:id="@+id/button_clean"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="清理数据"
+    />
+</LinearLayout>
