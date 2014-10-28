@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youku.logcat_ghost.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="启动服务" />
+
+        <Button
+            android:id="@+id/button_stop"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="停止服务" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:text="重启服务" />
+
+        <Button
+            android:id="@+id/button_clean"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:text="清理数据" />
+
+    </LinearLayout>
+
+</FrameLayout>
